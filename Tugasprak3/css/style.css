@@ -132,3 +132,27 @@ form {
 .dropdown:hover .dropdown-child {
     display: block;
 }
+.Menu{
+	width: 1000px;
+	height: 300px;
+	padding-top: 10px;
+	text-indent: 30px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	background-color: #DEB887;
+	text-align: justify;
+	font-family: imapct;
+	color: #000000;
+}
+.Budaya_Terkini{
+	width: 1000px;
+	height: 500px;
+	padding-top: 10px;
+	text-indent: 30px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	background-color: #DEB887;
+	text-align: justify;
+	font-family: imapct;
+	color: #000000;
+}
