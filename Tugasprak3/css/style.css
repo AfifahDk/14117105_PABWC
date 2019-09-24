@@ -1,0 +1,158 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background: #fff;
+	background-size: cover;
+	
+}
+.batasan{
+	width: 1000px;
+	border: 1px solid #FFEBCD;
+	margin: 0px auto;
+}
+header{
+	width: 1000px;
+	height: 200px;
+	background: #E9967A;
+	color: white;
+}
+header ul{
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+header ul li {
+	display: inline-block;
+	line-height: 50px;
+}
+header ul li a{
+	text-decoration: none;
+	padding-right: 25px;
+	padding-left: 25px;
+	display: block;
+}
+header ul li a:hover{
+	background-color: 
+	background: #FFEBCD;
+}
+nav{
+	margin: 0px;
+	padding-top: 10px;
+	List-style: none;
+	width: 1000px;
+	height: 100px;
+	background: #FAEBD7;
+	font-family: Arial, Helvetica, sans-serif;
+	text-align: center;
+	text-indent: 30px;
+	line-height: 30px;
+}
+.konten{
+	width: 1000px;
+	height: 300px;
+	padding-top: 30px;
+	background-image: url('../images (3).jpg');
+	text-align: center;
+	font-family: imapct;
+	color: #fff;
+}
+footer{
+	width: 1000px;
+	height: 50px;
+	background: #E9967A;
+	color: white;
+	text-align: center;
+	
+}
+img {
+   width: 25px;
+   height: 25px;
+   border-radius: 50%;
+}
+form {
+    width:500px;
+    margin:50px auto;
+}
+.search {
+    padding:8px 15px;
+    background: #FFEBCD;
+    border:0px solid #dbdbdb;
+}
+.button {
+    position:relative;
+    padding:6px 15px;
+    left:-8px;
+    border:2px solid #53bd84;
+    background-color:#53bd84;
+    color:#fafafa;
+}
+.button:hover  {
+    background-color:#fafafa;
+    color:#207cca;
+}
+.About{
+	width: 1000px;
+	height: 300px;
+	padding-top: 10px;
+	text-indent: 30px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	background-image: url('../images (4).jpg');
+	text-align: justify;
+	font-family: imapct;
+	color: #000000;
+}
+.mainmenubtn {
+    background-color: #E9967A;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+ 
+.mainmenubtn:hover {
+    background-color: #E9967A;
+    }
+ 
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: black;
+    min-width: 200px;
+}
+.dropdown-child a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+.Menu{
+	width: 1000px;
+	height: 300px;
+	padding-top: 10px;
+	text-indent: 30px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	background-color: #DEB887;
+	text-align: justify;
+	font-family: imapct;
+	color: #000000;
+}
+.Budaya_Terkini{
+	width: 1000px;
+	height: 500px;
+	padding-top: 10px;
+	text-indent: 30px;
+	line-height: 30px;
+	letter-spacing: 0px;
+	background-color: #DEB887;
+	text-align: justify;
+	font-family: imapct;
+	color: #000000;
+}
