@@ -1,0 +1,6 @@
+HTML <tbody> element digunakan untuk mengelompokkan konten yang terletak pada bagian tubuh table itu sendiri. 
+Di dalam element <tbody> tersebut, harus ditulis element <tr> yang menunjukkan table row atau baris sebuah table.
+Dalam sebuah tabel, <tbody> element digunakan bersamaan dengan element <thead> yang menunjukkan bagian kepala tabel.
+td: kepanjangan dari table data, digunakan untuk membuat isi dari th atau baris.
+th: kepanjangan dari table heading, digunakan untuk membuat judul sebuah table seperti No, dan nama. biasanya di tanda dengan hurufnya menjadi bold.
+tr: kepanjangan dari table row, digunakan untuk mendefiniskan baris pada tabel
