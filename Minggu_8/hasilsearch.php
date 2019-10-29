@@ -2,7 +2,7 @@
 $kolom=$_POST['kolom'];
 $cari=$_POST['cari'];
 $conn=mysqli_connect("localhost","root","","universitas");
-mysqli_select_db($conn,"liga");
+mysqli_select_db($conn,"bukutamu");
 $hasil=mysqli_query($conn,"select * from bukutamu where $kolom like '%$cari%'");
 $jumlah=mysqli_num_rows($hasil);
 echo "<br>";

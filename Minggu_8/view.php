@@ -1,6 +1,6 @@
 <?php
 $conn=mysqli_connect ("localhost","root","","universitas");
-mysqli_select_db($conn,"liga");
+mysqli_select_db($conn,"bukutamu");
 $hasil = mysqli_query($conn, "select * from bukutamu");
 $jumlah = mysqli_num_rows($hasil);
 echo "<center>Daftar Pengunjung</center>";
