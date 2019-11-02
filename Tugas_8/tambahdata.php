@@ -15,8 +15,11 @@
             values ('$NRP','$nama','$alamat','$jurusan')";
             $hasil = mysqli_query($conn,$sqlstr);
             
-            if($hasil) echo "<h3>Simpan data mahasiswa berhasil dilakukan</h3><br>";
-            else echo "<h3>Gagal</h3><br>";
+            if($hasil) {
+				echo "<h3>Simpan data mahasiswa berhasil dilakukan</h3><br>";
+			} else {
+			echo "<h3>Tidak berhasil menambahkan</h3><br>";
+			}
             mysqli_select_db($conn,"universitas");
             $hasil=mysqli_query($conn,"select nama from jurusan where id_jur='$jurusan'");
             $row=mysqli_fetch_array($hasil);
@@ -26,6 +29,6 @@
             echo "Alamat : $alamat <br>";
             echo "Jurusan : $jurusan <br>";
         ?>
-        <a href="halamanawal.html">Return to Home</a>
+        <a href="halamanawal.html">Home</a>
     </body>
 </html>
