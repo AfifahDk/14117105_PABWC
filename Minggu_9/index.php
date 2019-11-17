@@ -13,7 +13,7 @@ header('location:home.php');
 <body>
 	<h1>PHP Login Authentication OOP PABW</h1>
 	<h3><span></span> Login</h3>
-<form method="POST" action="login.php">
+<form method="POST" action="cek_login.php">
 	<div>
 		<input placeholder="Username" type="text" name="username" autofocus required>
 	</div>
